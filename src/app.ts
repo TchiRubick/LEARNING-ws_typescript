@@ -5,7 +5,7 @@ import * as routes from "./routes";
 
 export default () => {
     const app = express();
-    const port = config.server.port;
+    const port = process.env.PORT || config.server.port;
 
     app.use(bodyParser.urlencoded({ extended: false }));
 
