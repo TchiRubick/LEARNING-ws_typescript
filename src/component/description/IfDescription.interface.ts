@@ -1,7 +1,8 @@
 export interface IDescription {
     description: string;
-    link_fb: string;
-    link_lnkin: string;
+    linkfb: string;
+    linkgithub: string;
+    linklinkedin: string;
     number: string;
     pic: string;
     poste: string;

@@ -1,2 +1,4 @@
 0: No error
 1: Error request
+2: Valeur vide
+3: error query
